@@ -3,7 +3,7 @@ About mkdocstrings
 
 Home: https://github.com/pawamoy/mkdocstrings
 
-Package license: ISC
+Package license: ISC License (ISCL)
 
 Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/mkdocstrings-feedstock/blob/master/LICENSE.txt)
 
