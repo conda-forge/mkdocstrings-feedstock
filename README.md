@@ -5,7 +5,7 @@ Home: https://github.com/pawamoy/mkdocstrings
 
 Package license: ISC (ISCL)
 
-Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/mkdocstrings-feedstock/blob/master/LICENSE.txt)
+Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/mkdocstrings-feedstock-1-feedstock/blob/master/LICENSE.txt)
 
 Summary: Automatic documentation from sources, for MkDocs.
 
@@ -15,8 +15,8 @@ Current build status
 
 <table><tr><td>All platforms:</td>
     <td>
-      <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=10986&branchName=master">
-        <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/mkdocstrings-feedstock?branchName=master">
+      <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=&branchName=master">
+        <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/mkdocstrings-feedstock-1-feedstock?branchName=master">
       </a>
     </td>
   </tr>
