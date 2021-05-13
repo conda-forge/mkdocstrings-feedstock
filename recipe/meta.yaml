@@ -11,25 +11,23 @@ source:
   sha256: f1e46125c7381beccb79f213468fb4e5c4492d1c6881c06b8afbec30c737733c
 
 build:
-  number: 1
+  number: 2
   noarch: python
   script: {{ PYTHON }} -m pip install . -vv
 
 requirements:
   host:
     - pip
-    - poetry
     - python >=3.6,<4.0
   run:
-    - beautifulsoup4 >=4.8.2
-    - mkdocs >=1.1
-    - mkdocs-autorefs >=0.1
+    - jinja2 >=2.11,<3.0
+    - markdown >=3.3,<4.0
+    - markupsafe >=1.1,<2.0
+    - mkdocs >=1.1,<2.0
+    - mkdocs-autorefs >=0.1,<0.2
     - pymdown-extensions >=6.3,<9.0
     - python >=3.6,<4.0
     - pytkdocs >=0.2.0,<0.12.0
-    - markdown >=3.3
-    - markupsafe >=1.1
-    - jinja2 >=2.11
 
 test:
   imports:
@@ -41,12 +39,12 @@ test:
     - pip
 
 about:
-  home: https://github.com/pawamoy/mkdocstrings
+  home: https://github.com/mkdocstrings/mkdocstrings
   summary: Automatic documentation from sources, for MkDocs.
-  license: ISC (ISCL)
-  license_family: Other
+  license: MIT
   license_file: LICENSE
 
 extra:
   recipe-maintainers:
     - bandersen23
+    - hadim
