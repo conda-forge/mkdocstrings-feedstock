@@ -1,9 +1,9 @@
 About mkdocstrings
 ==================
 
-Home: https://github.com/pawamoy/mkdocstrings
+Home: https://github.com/mkdocstrings/mkdocstrings
 
-Package license: ISC (ISCL)
+Package license: MIT
 
 Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/mkdocstrings-feedstock/blob/master/LICENSE.txt)
 
@@ -116,4 +116,5 @@ Feedstock Maintainers
 =====================
 
 * [@bandersen23](https://github.com/bandersen23/)
+* [@hadim](https://github.com/hadim/)
 
