@@ -1,9 +1,9 @@
 About mkdocstrings
 ==================
 
-Home: https://github.com/pawamoy/mkdocstrings
+Home: https://github.com/mkdocstrings/mkdocstrings
 
-Package license: ISC (ISCL)
+Package license: MIT
 
 Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/mkdocstrings-feedstock/blob/master/LICENSE.txt)
 
@@ -15,7 +15,7 @@ Current build status
 
 <table><tr><td>All platforms:</td>
     <td>
-      <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=&branchName=master">
+      <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=10986&branchName=master">
         <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/mkdocstrings-feedstock?branchName=master">
       </a>
     </td>
@@ -36,6 +36,7 @@ Installing `mkdocstrings` from the `conda-forge` channel can be achieved by addi
 
 ```
 conda config --add channels conda-forge
+conda config --set channel_priority strict
 ```
 
 Once the `conda-forge` channel has been enabled, `mkdocstrings` can be installed with:
@@ -115,4 +116,5 @@ Feedstock Maintainers
 =====================
 
 * [@bandersen23](https://github.com/bandersen23/)
+* [@hadim](https://github.com/hadim/)
 
