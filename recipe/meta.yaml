@@ -19,7 +19,7 @@ requirements:
   host:
     - pip
     - python >=3.6,<4.0
-    - poetry
+    - pdm
   run:
     - jinja2 >=2.11,<4.0
     - markdown >=3.3,<4.0
