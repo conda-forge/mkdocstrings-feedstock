@@ -31,13 +31,18 @@ requirements:
     - pytkdocs >=0.14.0
 
 test:
+  source_files:
+    - tests
   imports:
     - mkdocstrings
     - mkdocstrings.handlers
   commands:
     - pip check
+    - pytest --pyargs mkdocstrings
   requires:
     - pip
+    - pytest
+    - sphinx
 
 about:
   home: https://github.com/mkdocstrings/mkdocstrings
