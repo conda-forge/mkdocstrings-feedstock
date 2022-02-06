@@ -9,6 +9,8 @@ Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/mkdocstrings-fe
 
 Summary: Automatic documentation from sources, for MkDocs.
 
+Documentation: https://mkdocstrings.github.io
+
 Current build status
 ====================
 
