@@ -1,5 +1,5 @@
 {% set name = "mkdocstrings" %}
-{% set version = "0.17.0" %}
+{% set version = "0.18.0" %}
 
 
 package:
@@ -8,7 +8,9 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/mkdocstrings-{{ version }}.tar.gz
-  sha256: 75b5cfa2039aeaf3a5f5cf0aa438507b0330ce76c8478da149d692daa7213a98
+  sha256: 01d8ab962fc1f388c9b15cbf8c078b8738f92adf983b626d74135aaee2bce33a
+  patches:
+    - patches/0001-fix-requirements.patch
 
 build:
   number: 0
@@ -26,9 +28,10 @@ requirements:
     - markdown >=3.3
     - markupsafe >=1.1
     - mkdocs >=1.2
-    - mkdocs-autorefs >=0.1
+    - mkdocs-autorefs >=0.3.1
     - pymdown-extensions >=6.3
-    - pytkdocs >=0.14.0
+  run_constrained:
+    - mkdocstrings-python-legacy >=0.2
 
 test:
   imports:
