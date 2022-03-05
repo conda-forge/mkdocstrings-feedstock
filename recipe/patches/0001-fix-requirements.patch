@@ -7,16 +7,18 @@ Subject: [PATCH] fix requirements
  pyproject.toml | 2 +-
  1 file changed, 1 insertion(+), 1 deletion(-)
 
-diff --git a/pyproject.toml b/pyproject.toml
-index d2332e7..2ce9719 100644
+diff --git a/pyproject.toml b/pyproject2.toml
+index 084bc23..2d9c510 100644
 --- a/pyproject.toml
 +++ b/pyproject.toml
-@@ -35,7 +35,7 @@ dependencies = [
-     "MarkupSafe>=1.1",
-     "mkdocs>=1.2",
-     "mkdocs-autorefs>=0.3.1",
--    "mkdocstrings-python-legacy>=0.2",
-+    # "mkdocstrings-python-legacy>=0.2",
-     "pymdown-extensions>=6.3",
- ]
+@@ -10,7 +10,7 @@ requires-python = ">=3.7"
+ keywords = [ "mkdocs", "mkdocs-plugin", "docstrings", "autodoc", "documentation",]
+ dynamic = []
+ classifiers = [ "Development Status :: 4 - Beta", "Intended Audience :: Developers", "License :: OSI Approved :: ISC License (ISCL)", "Programming Language :: Python", "Programming Language :: Python :: 3", "Programming Language :: Python :: 3 :: Only", "Programming Language :: Python :: 3.7", "Programming Language :: Python :: 3.8", "Programming Language :: Python :: 3.9", "Programming Language :: Python :: 3.10", "Programming Language :: Python :: 3.11", "Topic :: Documentation", "Topic :: Software Development", "Topic :: Software Development :: Documentation", "Topic :: Utilities", "Typing :: Typed",]
+-dependencies = [ "Jinja2>=2.11.1", "Markdown>=3.3", "MarkupSafe>=1.1", "mkdocs>=1.2", "mkdocs-autorefs>=0.3.1", "mkdocstrings-python-legacy>=0.2", "pymdown-extensions>=6.3",]
++dependencies = [ "Jinja2>=2.11.1", "Markdown>=3.3", "MarkupSafe>=1.1", "mkdocs>=1.2", "mkdocs-autorefs>=0.3.1", "pymdown-extensions>=6.3",]
+ version = "0.18.0"
+ [[project.authors]]
+ name = "Timothée Mazzucotelli"
+
  
