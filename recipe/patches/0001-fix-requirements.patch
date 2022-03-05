@@ -1,0 +1,25 @@
+From a404546a5ac8369152e4da1ac64dd53cbd2d6e94 Mon Sep 17 00:00:00 2001
+From: Brandon Andersen <brandonjandersen@gmail.com>
+Date: Sat, 5 Mar 2022 12:25:59 -0500
+Subject: [PATCH] fix requirements
+
+---
+ pyproject.toml | 2 +-
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+
+diff --git a/pyproject.toml b/pyproject.toml
+index d2332e7..2ce9719 100644
+--- a/pyproject.toml
++++ b/pyproject.toml
+@@ -35,7 +35,7 @@ dependencies = [
+     "MarkupSafe>=1.1",
+     "mkdocs>=1.2",
+     "mkdocs-autorefs>=0.3.1",
+-    "mkdocstrings-python-legacy>=0.2",
++    # "mkdocstrings-python-legacy>=0.2",
+     "pymdown-extensions>=6.3",
+ ]
+ 
+-- 
+2.32.0 (Apple Git-132)
+

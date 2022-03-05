@@ -9,6 +9,8 @@ package:
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/mkdocstrings-{{ version }}.tar.gz
   sha256: 01d8ab962fc1f388c9b15cbf8c078b8738f92adf983b626d74135aaee2bce33a
+  patches:
+    - patches/0001-fix-requirements.patch
 
 build:
   number: 0
