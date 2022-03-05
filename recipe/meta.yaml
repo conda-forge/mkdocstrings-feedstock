@@ -30,7 +30,8 @@ requirements:
     - mkdocs >=1.2
     - mkdocs-autorefs >=0.3.1
     - pymdown-extensions >=6.3
-    # - mkdocstrings-python-legacy >=0.2
+  run_constrained:
+    - mkdocstrings-python-legacy >=0.2
 
 test:
   imports:
