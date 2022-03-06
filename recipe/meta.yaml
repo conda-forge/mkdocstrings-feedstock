@@ -9,11 +9,9 @@ package:
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/mkdocstrings-{{ version }}.tar.gz
   sha256: 01d8ab962fc1f388c9b15cbf8c078b8738f92adf983b626d74135aaee2bce33a
-  patches:
-    - patches/0001-fix-requirements.patch
 
 build:
-  number: 0
+  number: 1
   noarch: python
   script: {{ PYTHON }} -m pip install . -vv
 
@@ -30,7 +28,6 @@ requirements:
     - mkdocs >=1.2
     - mkdocs-autorefs >=0.3.1
     - pymdown-extensions >=6.3
-  run_constrained:
     - mkdocstrings-python-legacy >=0.2
 
 test:
