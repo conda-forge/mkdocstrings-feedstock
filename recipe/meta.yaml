@@ -13,7 +13,7 @@ source:
     - patches/0001-fix-requirements.patch
 
 build:
-  number: 0
+  number: 1
   noarch: python
   script: {{ PYTHON }} -m pip install . -vv
 
@@ -32,6 +32,7 @@ requirements:
     - pymdown-extensions >=6.3
   run_constrained:
     - mkdocstrings-python-legacy >=0.2
+    - mkdocstrings-python >=5.2
 
 test:
   imports:
