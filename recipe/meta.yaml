@@ -11,7 +11,7 @@ source:
   sha256: fb7c91ce7e3ab70488d3fa6c073a4f827cdc319042f682ef8ea95459790d64fc
 
 build:
-  number: 0
+  number: 1
   noarch: python
   script: {{ PYTHON }} -m pip install . -vv
 
@@ -28,7 +28,6 @@ requirements:
     - mkdocs >=1.2
     - mkdocs-autorefs >=0.3.1
     - pymdown-extensions >=6.3
-    - mkdocstrings-python >=0.5.2
     - mkdocstrings-python-legacy >=0.2
 
 test:
