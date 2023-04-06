@@ -1,11 +1,11 @@
-About mkdocstrings
-==================
+About mkdocstrings-feedstock
+============================
+
+Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/mkdocstrings-feedstock/blob/main/LICENSE.txt)
 
 Home: https://github.com/mkdocstrings/mkdocstrings
 
 Package license: MIT
-
-Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/mkdocstrings-feedstock/blob/main/LICENSE.txt)
 
 Summary: Automatic documentation from sources, for MkDocs.
 
