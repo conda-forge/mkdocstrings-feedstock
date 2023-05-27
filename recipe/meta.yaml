@@ -19,7 +19,7 @@ requirements:
   host:
     - pip
     - python >=3.7,<4.0
-    - pdm-pep517
+    - pdm-backend
   run:
     - python >=3.7,<4.0
     - jinja2 >=2.11.1
