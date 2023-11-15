@@ -18,15 +18,17 @@ build:
 requirements:
   host:
     - pip
-    - python >=3.7,<4.0
+    - python >=3.8,<4.0
     - pdm-backend
   run:
-    - python >=3.7,<4.0
+    - python >=3.8,<4.0
+    - click >=7.0
     - jinja2 >=2.11.1
     - markdown >=3.3
     - markupsafe >=1.1
-    - mkdocs >=1.2
+    - mkdocs >=1.4
     - mkdocs-autorefs >=0.3.1
+    - latformdirs >=2.2.0
     - pymdown-extensions >=6.3
     - importlib-metadata >=4.6
     - typing-extensions >=4.1
