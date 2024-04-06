@@ -146,5 +146,4 @@ Feedstock Maintainers
 =====================
 
 * [@bandersen23](https://github.com/bandersen23/)
-* [@hadim](https://github.com/hadim/)
 
