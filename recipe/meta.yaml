@@ -46,7 +46,7 @@ about:
   home: https://github.com/mkdocstrings/mkdocstrings
   doc_url: https://mkdocstrings.github.io
   summary: Automatic documentation from sources, for MkDocs.
-  license: MIT
+  license: ISC
   license_file: LICENSE
 
 extra:
