@@ -1,5 +1,5 @@
 {% set name = "mkdocstrings" %}
-{% set version = "0.25.1" %}
+{% set version = "0.25.2" %}
 
 
 package:
@@ -8,7 +8,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/mkdocstrings-{{ version }}.tar.gz
-  sha256: c3a2515f31577f311a9ee58d089e4c51fc6046dbd9e9b4c3de4c3194667fe9bf
+  sha256: 5cf57ad7f61e8be3111a2458b4e49c2029c9cb35525393b179f9c916ca8042dc
 
 build:
   number: 0
@@ -27,7 +27,7 @@ requirements:
     - markdown >=3.3
     - markupsafe >=1.1
     - mkdocs >=1.4
-    - mkdocs-autorefs >=0.3.1
+    - mkdocs-autorefs >=1.0
     - platformdirs >=2.2.0
     - pymdown-extensions >=6.3
     - importlib-metadata >=4.6
@@ -46,7 +46,7 @@ about:
   home: https://github.com/mkdocstrings/mkdocstrings
   doc_url: https://mkdocstrings.github.io
   summary: Automatic documentation from sources, for MkDocs.
-  license: MIT
+  license: ISC
   license_file: LICENSE
 
 extra:

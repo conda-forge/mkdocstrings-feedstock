@@ -5,7 +5,7 @@ Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/mkdocstrings-fe
 
 Home: https://github.com/mkdocstrings/mkdocstrings
 
-Package license: MIT
+Package license: ISC
 
 Summary: Automatic documentation from sources, for MkDocs.
 
