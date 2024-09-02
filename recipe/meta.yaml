@@ -24,10 +24,10 @@ requirements:
     - python >=3.8,<4.0
     - click >=7.0
     - jinja2 >=2.11.1
-    - markdown >=3.3
+    - markdown >=3.6
     - markupsafe >=1.1
     - mkdocs >=1.4
-    - mkdocs-autorefs >=1.0
+    - mkdocs-autorefs >=1.2
     - platformdirs >=2.2.0
     - pymdown-extensions >=6.3
     - importlib-metadata >=4.6
