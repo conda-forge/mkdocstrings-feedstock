@@ -18,10 +18,10 @@ build:
 requirements:
   host:
     - pip
-    - python >=3.8,<4.0
+    - python >=3.9,<4.0
     - pdm-backend
   run:
-    - python >=3.8,<4.0
+    - python >=3.9,<4.0
     - click >=7.0
     - jinja2 >=2.11.1
     - markdown >=3.6
