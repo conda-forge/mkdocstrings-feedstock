@@ -1,5 +1,5 @@
 {% set name = "mkdocstrings" %}
-{% set version = "0.26.1" %}
+{% set version = "0.26.2" %}
 
 
 package:
@@ -8,7 +8,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/mkdocstrings-{{ version }}.tar.gz
-  sha256: bb8b8854d6713d5348ad05b069a09f3b79edbc6a0f33a34c6821141adb03fe33
+  sha256: 34a8b50f1e6cfd29546c6c09fbe02154adfb0b361bb758834bf56aa284ba876e
 
 build:
   number: 0
@@ -18,10 +18,10 @@ build:
 requirements:
   host:
     - pip
-    - python >=3.8,<4.0
+    - python >=3.9,<4.0
     - pdm-backend
   run:
-    - python >=3.8,<4.0
+    - python >=3.9,<4.0
     - click >=7.0
     - jinja2 >=2.11.1
     - markdown >=3.6
