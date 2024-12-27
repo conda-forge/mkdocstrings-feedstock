@@ -7,21 +7,21 @@ package:
   version: {{ version }}
 
 source:
-  url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/mkdocstrings-{{ version }}.tar.gz
+  url: https://pypi.org/packages/source/{{ name[0] }}/{{ name }}/mkdocstrings-{{ version }}.tar.gz
   sha256: 16adca6d6b0a1f9e0c07ff0b02ced8e16f228a9d65a37c063ec4c14d7b76a657
 
 build:
-  number: 0
+  number: 1
   noarch: python
   script: {{ PYTHON }} -m pip install . -vv
 
 requirements:
   host:
     - pip
-    - python >=3.9,<4.0
+    - python {{ python_min }}
     - pdm-backend
   run:
-    - python >=3.9,<4.0
+    - python >={{ python_min }},<4.0
     - click >=7.0
     - jinja2 >=2.11.1
     - markdown >=3.6
@@ -41,6 +41,7 @@ test:
     - pip check
   requires:
     - pip
+    - python {{ python_min }}
 
 about:
   home: https://github.com/mkdocstrings/mkdocstrings
