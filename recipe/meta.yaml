@@ -27,7 +27,8 @@ requirements:
     - markdown >=3.6
     - markupsafe >=1.1
     - mkdocs >=1.4
-    - mkdocs-autorefs >=1.2
+    - mkdocs-autorefs >=1.3
+    - mkdocs-get-deps >0.2
     - platformdirs >=2.2.0
     - pymdown-extensions >=6.3
     - importlib-metadata >=4.6
