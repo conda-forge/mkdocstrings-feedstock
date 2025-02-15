@@ -11,7 +11,7 @@ source:
   sha256: df20afef1eafe36ba466ae20732509ecb74237653a585f5061937e54b553b4e0
 
 build:
-  number: 0
+  number: 1
   noarch: python
   script: {{ PYTHON }} -m pip install . -vv
 
@@ -29,7 +29,6 @@ requirements:
     - mkdocs >=1.4
     - mkdocs-autorefs >=1.3
     - mkdocs-get-deps >=0.2
-    - platformdirs >=2.2.0
     - pymdown-extensions >=6.3
     - importlib-metadata >=4.6
     - typing-extensions >=4.1
