@@ -26,9 +26,8 @@ requirements:
     - jinja2 >=2.11.1
     - markdown >=3.6
     - markupsafe >=1.1
-    - mkdocs >=1.4
+    - mkdocs >=1.6
     - mkdocs-autorefs >=1.4
-    - mkdocs-get-deps >=0.2
     - pymdown-extensions >=6.3
     - importlib-metadata >=4.6
     - typing-extensions >=4.1
