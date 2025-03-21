@@ -11,7 +11,7 @@ source:
   sha256: 3657be1384543ce0ee82112c3e521bbf48e41303aa0c229b9ffcccba057d922e
 
 build:
-  number: 0
+  number: 1
   noarch: python
   script: {{ PYTHON }} -m pip install . -vv
 
@@ -35,7 +35,6 @@ requirements:
 test:
   imports:
     - mkdocstrings
-    - mkdocstrings.handlers
   commands:
     - pip check
   requires:
@@ -44,6 +43,7 @@ test:
 
 about:
   home: https://github.com/mkdocstrings/mkdocstrings
+  dev_url: https://github.com/mkdocstrings/mkdocstrings
   doc_url: https://mkdocstrings.github.io
   summary: Automatic documentation from sources, for MkDocs.
   license: ISC
