@@ -9,6 +9,8 @@ Package license: ISC
 
 Summary: Automatic documentation from sources, for MkDocs.
 
+Development: https://github.com/mkdocstrings/mkdocstrings
+
 Documentation: https://mkdocstrings.github.io
 
 Current build status
